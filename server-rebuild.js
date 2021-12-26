@@ -1,3 +1,5 @@
+/** @param {NS} ns **/
+
 export async function main(ns) {
 	var myScript = ns.args[0];
 	var scriptRam = ns.getScriptRam(myScript);
@@ -12,7 +14,7 @@ export async function main(ns) {
 		ns.tprint(`Copying ${myScript} to ${currentServer}`);
 		await ns.scp(myScript, currentServer);
 		ns.tprint(`Running ${myScript} in ${scriptThreads} threads.`);
-		ns.exec(myScript,currentServer,scriptThreads,"joesguns");
+		ns.exec(myScript,currentServer,scriptThreads,ns.args[1]);
 		await ns.sleep(50);
 
 	}

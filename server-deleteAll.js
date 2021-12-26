@@ -1,3 +1,5 @@
+/** @param {NS} ns **/
+
 export async function main(ns) {
 	var serverList = [];
 	serverList = ns.getPurchasedServers();

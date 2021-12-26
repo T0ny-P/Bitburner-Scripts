@@ -1,3 +1,5 @@
+/** @param {NS} ns **/
+
 export async function main(ns) {
     var ramLimit = ns.getPurchasedServerMaxRam();
     var ramCount = 2;
