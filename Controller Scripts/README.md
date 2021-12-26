@@ -1,4 +1,4 @@
-# Bitburner-Scripts
+# Controller scripts
 
 ## Basic operation
 - Find server and gain root access
