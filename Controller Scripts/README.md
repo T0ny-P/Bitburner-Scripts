@@ -6,3 +6,7 @@
 - Based on the the amount of time required to grow or hack at the minimal security level, determine the number of concurrent servers will be required to stay at the minimal security level.
 - grow until at max money before a hack.
 - remote servers report stats back to control node
+
+
+## Server object
+(Stored in an Array)
